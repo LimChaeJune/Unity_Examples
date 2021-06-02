@@ -54,6 +54,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6b928d71c4eff4786c868361e77e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RoomObject: {fileID: 1929416246333548, guid: 6730e96e10b90864482fea8cbd8b0fbe, type: 3}
 --- !u!114 &6857631907558433275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,19 +98,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2700951066211814624}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!222 &719687402884889688
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -328,7 +317,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
+    m_FontSize: 24
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1

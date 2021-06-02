@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Resources/01. Scenes/RoomEditing.unity
+- path: Assets/Resources/01. Scenes/MenuBar.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
