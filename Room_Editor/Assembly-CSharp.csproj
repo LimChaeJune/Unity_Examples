@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Resources\02. Script\RoomEditing\FurnitureList.cs" />
+    <Compile Include="Assets\Resources\02. Script\MenuScene\MenuSetup.cs" />
     <Compile Include="Assets\Resources\02. Script\RoomEditing\ListItemSetting.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Components\GrainComponent.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Models\UserLutModel.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\Resources\02. Script\MenuScene\SlideMenu.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Components\UserLutComponent.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
@@ -109,8 +111,9 @@
     <Compile Include="Assets\Resources\02. Script\RoomEditing\BulletScript.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Resources\02. Script\MenuScene\SlideMenu.cs" />
-    <Compile Include="Assets\Resources\02. Script\MenuScene\MenuSetup.cs" />
+    <Compile Include="Assets\Resources\02. Script\MenuScene\TabGroup.cs" />
+    <Compile Include="Assets\Resources\02. Script\MenuScene\TabButton.cs" />
+    <Compile Include="Assets\Resources\02. Script\MenuScene\PanelActive.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FurniturePack\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
