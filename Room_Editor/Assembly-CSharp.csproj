@@ -65,11 +65,13 @@
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Resources\02. Script\MenuScene\TabGroup.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\PostProcessingProfile.cs" />
     <Compile Include="Assets\Resources\02. Script\RoomEditing\ObjectDrag.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Resources\02. Script\MenuScene\PanelActive.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\Resources\02. Script\RoomEditing\PhysicsScript.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Components\DitheringComponent.cs" />
@@ -109,11 +111,9 @@
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
     <Compile Include="Assets\Resources\02. Script\RoomEditing\BulletScript.cs" />
+    <Compile Include="Assets\Resources\02. Script\MenuScene\TabButton.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\FurniturePack\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Resources\02. Script\MenuScene\TabGroup.cs" />
-    <Compile Include="Assets\Resources\02. Script\MenuScene\TabButton.cs" />
-    <Compile Include="Assets\Resources\02. Script\MenuScene\PanelActive.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FurniturePack\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />

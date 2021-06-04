@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -293,6 +293,7 @@ GameObject:
   - component: {fileID: 171302745}
   - component: {fileID: 171302744}
   - component: {fileID: 171302746}
+  - component: {fileID: 171302747}
   m_Layer: 5
   m_Name: Panel1 (1)
   m_TagString: Untagged
@@ -315,10 +316,10 @@ RectTransform:
   m_Father: {fileID: 281565690}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 380, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &171302744
 MonoBehaviour:
@@ -372,6 +373,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SmoothTime: 0.5
   IsShow: 0
+--- !u!225 &171302747
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171302742}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &281565689
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,6 +553,7 @@ GameObject:
   - component: {fileID: 555336674}
   - component: {fileID: 555336673}
   - component: {fileID: 555336675}
+  - component: {fileID: 555336676}
   m_Layer: 5
   m_Name: Panel1 (3)
   m_TagString: Untagged
@@ -562,10 +576,10 @@ RectTransform:
   m_Father: {fileID: 281565690}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 380, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &555336673
 MonoBehaviour:
@@ -619,6 +633,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SmoothTime: 0.5
   IsShow: 0
+--- !u!225 &555336676
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555336671}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &608222611
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,6 +1017,7 @@ GameObject:
   - component: {fileID: 995999267}
   - component: {fileID: 995999266}
   - component: {fileID: 995999268}
+  - component: {fileID: 995999269}
   m_Layer: 5
   m_Name: Panel1 (2)
   m_TagString: Untagged
@@ -1013,10 +1040,10 @@ RectTransform:
   m_Father: {fileID: 281565690}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 380, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &995999266
 MonoBehaviour:
@@ -1070,6 +1097,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SmoothTime: 0.5
   IsShow: 0
+--- !u!225 &995999269
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995999264}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &999102801
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,7 +1528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1798,6 +1837,8 @@ GameObject:
   - component: {fileID: 1703828744}
   - component: {fileID: 1703828743}
   - component: {fileID: 1703828745}
+  - component: {fileID: 1703828747}
+  - component: {fileID: 1703828746}
   m_Layer: 5
   m_Name: Panel1
   m_TagString: Untagged
@@ -1820,10 +1861,10 @@ RectTransform:
   m_Father: {fileID: 281565690}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 380, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1703828743
 MonoBehaviour:
@@ -1877,6 +1918,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SmoothTime: 0.5
   IsShow: 0
+--- !u!225 &1703828746
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703828741}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!223 &1703828747
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703828741}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1717454175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2068,9 +2142,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonList: []
-  tabIdle: {r: 0.9622642, g: 0.077162705, b: 0.7980511, a: 0}
-  tabHover: {r: 0, g: 1, b: 0.203542, a: 0}
-  tabActive: {r: 1, g: 0.6391229, b: 0.07075471, a: 0}
+  tabIdle: {r: 0, g: 0, b: 0, a: 1}
+  tabHover: {r: 0.40530434, g: 0.41509432, b: 0.40730074, a: 1}
+  tabActive: {r: 0.39742088, g: 0.22895159, b: 0.46226418, a: 1}
   selectedTab: {fileID: 0}
   objectToSwap:
   - {fileID: 1703828741}
@@ -2337,7 +2411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2552,7 +2626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

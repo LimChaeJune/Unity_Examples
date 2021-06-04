@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Resources/01. Scenes/MenuBar.unity
+- path: C:/Users/cowns/Downloads/VikingQuest_Start/Assets/Scenes/StartingScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
